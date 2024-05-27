@@ -36,7 +36,7 @@ const Join = () => {
                 <div><div>email</div> <input id='email' type="text" value={email} onChange={(e)=>{setEmail(e.target.value)}}/></div>
                 <div className='submit' onClick={() => joinUser()}>회원가입</div>
             </div>
-            <div className='join'>이미 계정이 있다면? <Link to='/login' className='join-btn'>로그인하기</Link></div>
+            <div className='join'>이미 계정이 있으신가요? <Link to='/login' className='join-btn'>로그인하기</Link></div>
         </>
     )
 }
